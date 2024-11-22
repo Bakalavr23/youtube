@@ -1,0 +1,162 @@
+button{
+    border: none;
+}
+body{
+margin: 0;
+background-color: black;
+
+
+}
+.hd{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+   z-index: 1000;
+    position: fixed;
+    
+    
+    
+}
+.logo{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.serh{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sstr{
+    width: 30%;
+    height: 35px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    
+}
+.chbu{
+    width: 65px;
+    background-color: rgb(43, 43, 43);
+    outline: none;
+    height: 37px;
+    border-radius: 0px 20px 20px 0px;
+    border-left: 2px solid black;
+    
+}
+.micic{
+    width: 35px;
+    height: 35px ;
+    border-radius: 20px 20px 20px 20px;
+    background-color:rgb(43, 43, 43);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f1{
+   width: 260px;
+   height: fit-content;
+
+}
+
+.menu{
+    height: 100%;
+   width: 14%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 70px;
+    z-index:1000 ;
+   
+   
+}
+.main{
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mtext{
+    color: white;
+    font-size: larger;
+    position: relative;
+    left: 15%;
+    
+}
+.s1{
+    background-color: black;
+    width: 200px;
+    display: flex;
+    height: 50px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.main1{
+   
+    position: relative;
+    top: 15px; 
+}
+.main2{
+    position: relative;
+    top: 30px; 
+}
+.type{
+    width: 90%;
+    height: 45px;
+    background-color: black;
+    position: fixed;
+    top:70px;
+    display: flex;
+    align-self: center;
+    z-index: 900;
+}
+.s0{
+    width: 70px;
+    height: 35px;
+    position: relative;
+    left: 100px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    color: black;
+}
+.s2{
+    width: 70px;
+    height: 35px;
+    position: relative;
+    left: 100px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+.content{
+    
+     width: 89%;
+     height: fit-content;
+    display: flex;
+     background-color: rgb(0, 0, 0);
+     justify-content: space-evenly;
+     align-items: center;
+     position: relative;
+    top: 130px;
+    left: 200px;
+    flex-wrap: wrap;
+
+}
+.short{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+.v1{
+    border-radius: 10px 10px 10px 10px;
+}
